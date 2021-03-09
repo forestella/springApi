@@ -1,4 +1,4 @@
-package domain;
+package com.forest.springApi.domain;
 
 import lombok.Getter;
 import lombok.Setter;

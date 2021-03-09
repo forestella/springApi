@@ -1,4 +1,4 @@
-package domain.item;
+package com.forest.springApi.domain.item;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -22,7 +22,7 @@ public abstract class Item {
     private int stock_quantity;
 
     @ManyToMany
-    @JoinTable(name = "catogory_item") // 실전에서 쓰지 않는
+    @JoinTable(name = "category_item") // 실전에서 쓰지 않는
     private List<Category> categories= new ArrayList<>();
 
 }
